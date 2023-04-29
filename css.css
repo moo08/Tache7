@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+header .noir{
+    height: 50px;
+    color: #fff;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    padding-left: 200px;
+}
+
+.noir p{
+    font-size: 1.em;
+}
+
+.shop{
+    display: flex;
+}
+
+.shop h6{
+    font-size: .8em;
+    padding-left: 20px;
+}
+
+.blanc{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 60px;
+    padding-left: 120px;
+}
+
+.gauche {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+
+.gauche img{
+    z-index: "";
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: -50px;
+}
+
+h5{
+    width: 100px;
+    height: 50px;
+    list-style-type: none;
+    font-size: 1.2em;
+    box-shadow: 1px 1px 2px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.droite{
+    margin-left: 20px;
+}
+
+.droite input{
+    height: 50px;
+    width: 400px;
+    border: none;
+    position: relative;
+    top: -25px;
+}
+
+.droite button{
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    position: relative;
+    top: -20px;
+    left: 1px;
+}
+
+button ion-icon{
+    font-size: 2em;
+}
+
+.countainer{
+    height: 600px;
+    background: url(PUMA.jpg);
+    background-size: cover;
+    position: relative;
+    top: -5px;
+}
+
+.countainer .puma{
+    width: 200px;
+    position: relative;
+    left:46%;
+    top: 10%;
+}
+
+.puma{
+    height: 110px;
+    width: 110px;
+    background: url(Puma-logo.png.png);
+    background-size: cover;
+}
+
+.descrip{
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+.descrip h1{
+    font-size: 4em;
+    color: #fff;
+}
+
+.descrip p{
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+}
+
+.descrip button{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    background: none;
+    color: #fff;
+   border-color: #ffffff;
+   font-weight: bold;
+}
+
+.descrip span{
+    margin-left: 5px;
+}
+
+.one p{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.one span{
+    font-size: 2em;
+}
+
+.countainer-2{
+    height: 350px;
+    background: #e5e5e5;
+    position: relative;
+    top: -10px;
+}
+
+.box{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 350px;
+    top: -50px;
+}
+
+.countainer-2 h2{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+@media screen and (max-width: 996px) {
+    *{ 
+        margin: 0;
+        padding: 0;
+    }
+    
+    header{
+        width: 1600px;
+        height: 500px;
+    }
+
+    header .noir{
+        width: 1600px;
+        height: 150px;
+        font-size: 2.8em;
+        position: relative;
+        left: -200px;
+    }
+
+    .blanc{
+        position: relative;
+        top: 10px;
+        font-size: 2.5em;
+    }
+
+    .gauche h5{
+        width: 190px;
+        height: 100px;
+        position: relative;
+        left: 50px;
+        margin-left: 10px;
+    }
+
+    .gauche img{
+        display: none;
+    }
+
+    .droite {
+        position: relative;
+        left: 100px;
+        top: 30px;
+    }
+
+    .droite input{
+        width: 900px;
+        height: 100px;
+    }
+
+    .droite button{
+        height: 100px;
+        width: 100px;
+    }
+
+    .droite ion-icon{
+        font-size: 4em;
+    }
+
+    .countainer{
+        height: 1500px;
+        width: 1600px;
+        margin-top: -100px;
+    }
+
+    .countainer .puma {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        left: 550px;
+    }
+
+    .descrip h1{
+        font-size: 6em;
+        position: relative;
+        top: -50px;
+    }
+
+    .descrip p{
+        font-size: 2.5em;
+        
+    }
+
+    .descrip button{
+        width: 500px;
+        height: 100px;
+        font-size: 3em;
+        position: relative;
+        top: 50px;
+    }
+
+    .one p{
+        font-size: 6em;
+        position: relative;
+        top: 500px;
+    }
+
+    .countainer-2{
+        height: 2600px;
+        width: 1600px;
+    }
+
+    .box{
+        width: 1000px;
+        position: relative;
+        left: 0px;
+    }
+
+    .box img{
+        width: 1600px;
+    }
+
+    .foto-gauche{
+        width: 1600px;
+    }
+
+    .foto-droite{
+        width: 1600px;
+    }
+
+    .countainer-2 h2{
+        position: relative;
+        top: 100px;
+        font-size: 5em;
+        padding-bottom: 200px;
+    }
+}
